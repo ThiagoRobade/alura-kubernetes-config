@@ -6,7 +6,7 @@ metadata:
     app: primeiro-pod
 spec:
   containers:
-    - name: container-pod-1
-      image: nginx:latest
-      ports:
-        - containerPort: 80
+  - name: container-pod-1
+    image: nginx:latest
+    ports:
+      - containerPort: 80
